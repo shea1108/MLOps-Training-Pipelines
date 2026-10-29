@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Reference/tutorial code used for learning, not part of this project
+customer-satisfaction-mlops-main/
+
+# Generated model artifact (produced by continuous_deployment_pipeline)
+Saved_model/
+
+# Raw dataset, not checked in - see README for how to get it
+data/*.csv
+
+.tmp/
